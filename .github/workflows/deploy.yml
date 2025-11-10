@@ -7,7 +7,7 @@ on:
 
 env:
   AWS_REGION: us-east-2  # update if you are in a different region
-  AWS_LAMBDA_ROLE_ARN: arn:aws:sns:us-east-2:434824683583:image-processing-topic # replace with your ARN
+  AWS_LAMBDA_ROLE_ARN: arn:aws:iam::434824683583:role/lambda-image-processing-role # replace with your ARN
 
 jobs:
   deploy-resize:
